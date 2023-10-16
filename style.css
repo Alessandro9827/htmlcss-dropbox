@@ -1,7 +1,130 @@
+/*font-family: 'Open Sans', sans-serif;*/
+
 /*CSS Reset*/
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+header {
+    height: 60px;
+}
+
+.bc-lightblue{
+    background-color: #B3D0E7;
+}
+
+.container {
+    width: 100%;
+}
+
+/*Section Jumbo*/
+
+.container-jumbo {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbo{
+    width: 65%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jumbo-title {
+    width: 100%;
+    height: 20%;
+    background-color: yellow;
+}
+
+.jumbo-text {
+    width: 30%;
+    height: 80%;
+    background-color: red;
+}
+
+.jumbo-img {
+    width: 70%;
+    height: 80%;
+    background-color: blue;
+}
+
+/*Section Main*/
+
+.j-center {
+    display: flex;
+    justify-content: center;
+}
+
+/*Section price infos*/
+
+.price-info-container {
+    width: 50%;
+}
+
+.main-title {
+    background-color: yellow;
+    width: 100%;
+    height: 50px;
+}
+
+.j-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-info-single ,
+.price-info-team ,
+.price-info-company
+ {
+    background-color: green;
+    border: 1px solid black;
+    width: 30%;
+    height: 800px;
+    display: inline-block;
+    margin: 1rem 0;
+}
+
+.info-team {
+    width: 100%;
+    height: 150px;
+    background-color: magenta;
+}
+
+/*Partner info*/
+
+.partner-container {
+    height: 300px;
+    margin: 2rem;
+    border: 1px solid black;
+}
+
+.img-partner {
+    width: 30%;
+    height: 100%;
+    background-color: red;
+}
+
+.text-partner {
+    width: 20%;
+    height: 100%;
+    background-color: blue;
+}
+
+/*------------------*/
+
+.business-container {
+    width: 50%;
+    display: flex;
+}
+
+.business-title {
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
 }
