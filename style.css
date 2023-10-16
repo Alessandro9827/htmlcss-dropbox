@@ -24,6 +24,7 @@ header {
     width: 100%;
 }
 
+
 .j-center {
     display: flex;
     justify-content: center;
@@ -68,37 +69,57 @@ ul {
 }
 
 /*Section Jumbo*/
-
-.container-jumbo {
-    height: 600px;
+.jumbo-container {
+    width: 100vw;
+    height: 760px;
     display: flex;
-    justify-content: center;
-}
-
-.jumbo{
-    width: 65%;
-    height: 100%;
-    border: 1px solid black;
-    display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    margin-bottom: 6rem;
 }
 
 .jumbo-title {
-    width: 100%;
-    height: 20%;
-    background-color: yellow;
+    width: 60%;
+    font-size: 4rem;
+    padding: 2rem 0;
+}
+
+.jumbo{
+    width: 60%;
+    padding-top: 1.5rem;
+    display: flex;
 }
 
 .jumbo-text {
     width: 30%;
-    height: 80%;
-    background-color: red;
+    font-size: 1.1rem;
+}
+
+.jumbo-text p {
+    margin-bottom: 1rem;
 }
 
 .jumbo-img {
     width: 70%;
-    height: 80%;
-    background-color: blue;
+}
+
+.jumbo-img img{
+    width: 120%
+}
+
+.jumbo-button {
+    font-size: 1.2rem;
+    margin: 2rem 0; 
+    padding: .6rem .4rem;
+    font-weight: 300;
+    box-shadow: none;
+}
+
+
+.jumbo-text i {
+    margin-top: 3rem;
+    scale: 3;
 }
 
 /*Section Main*/
