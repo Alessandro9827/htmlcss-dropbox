@@ -122,34 +122,74 @@ ul {
     scale: 3;
 }
 
-/*Section Main*/
-
-
-
-/*Section price infos*/
-
+/*--Section w/ tariff plans--*/
+ 
 .price-info-container {
     width: 50%;
 }
 
 .main-title {
-    background-color: yellow;
-    width: 100%;
-    height: 50px;
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
+
+.main-title h2 {
+    font-size: 2.2rem;
+}
+
+label {
+    margin-right: 1rem;
+}
+
+.radio-button{
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+/*---3 colums---*/
 
 .price-info-single ,
 .price-info-team ,
-.price-info-company
- {
-    background-color: green;
-    border: 1px solid black;
+.price-info-company {
+    border: 1px solid lightgrey;
     width: 30%;
     height: 800px;
     display: inline-block;
     margin: 1rem 0;
 }
+
+.fa-user ,
+.fa-users ,
+.fa-building {
+    padding: 15px 6px 10px 0;
+}
+
+.border-bottom {
+    border-bottom: 1px solid lightgray;
+}
+
+.border-bottom span {
+    padding: 13px 0 8px 0;
+}
+
+.flex {
+    display: flex;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .info-team {
     width: 100%;
