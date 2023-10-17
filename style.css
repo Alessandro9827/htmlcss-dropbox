@@ -66,12 +66,12 @@ ul {
 
 .start-button {
     padding: 0 15px;
+    margin-right: 15px;
 }
 
 /*Section Jumbo*/
 .jumbo-container {
     width: 100vw;
-    height: 760px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -81,19 +81,21 @@ ul {
 
 .jumbo-title {
     width: 60%;
-    font-size: 4rem;
+    font-size: 3rem;
+    font-weight: bold;
     padding: 2rem 0;
 }
 
 .jumbo{
     width: 60%;
-    padding-top: 1.5rem;
     display: flex;
+    position: relative;
+    top: 70px;
 }
 
 .jumbo-text {
     width: 30%;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 }
 
 .jumbo-text p {
@@ -105,20 +107,19 @@ ul {
 }
 
 .jumbo-img img{
-    width: 120%
+    width: 110%
 }
 
 .jumbo-button {
-    font-size: 1.2rem;
-    margin: 2rem 0; 
-    padding: .6rem .4rem;
+    font-size: 1rem;
+    margin: 1rem 0; 
+    padding: .4rem .2rem;
     font-weight: 300;
     box-shadow: none;
 }
 
-
 .jumbo-text i {
-    margin-top: 3rem;
+    margin-top: 2rem;
     scale: 3;
 }
 
