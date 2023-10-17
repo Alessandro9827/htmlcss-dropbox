@@ -24,7 +24,6 @@ header {
     width: 100%;
 }
 
-
 .j-center {
     display: flex;
     justify-content: center;
@@ -80,14 +79,14 @@ ul {
 }
 
 .jumbo-title {
-    width: 60%;
+    width: 65%;
     font-size: 3rem;
     font-weight: bold;
     padding: 2rem 0;
 }
 
 .jumbo{
-    width: 60%;
+    width: 65%;
     display: flex;
     position: relative;
     top: 70px;
@@ -119,8 +118,9 @@ ul {
 }
 
 .jumbo-text i {
-    margin-top: 2rem;
     scale: 3;
+    position: relative;
+    top: 90px;
 }
 
 /*--Section w/ tariff plans--*/
@@ -145,6 +145,7 @@ label {
     margin-right: 1rem;
     margin-bottom: 2rem;
 }
+
 /*---3 colums---*/
 
 .price-info-single ,
@@ -157,7 +158,7 @@ label {
     margin: 1rem 0;
 }
 
-.fa-user ,
+.border-bottom .fa-user ,
 .fa-users ,
 .fa-building {
     padding: 15px 6px 10px 0;
@@ -174,9 +175,37 @@ label {
 .flex {
     display: flex;
 }
-.column {
-    display: flex;
-    flex-direction: column;
+
+.price-info-single h3 {
+    padding: 1rem 0 .4rem .9rem;
+}
+
+.price {
+    font-size: 13px;
+    font-weight: bold;
+    padding: .4rem 0 .4rem .9rem;
+}
+
+.month {
+    font-size: 13px;
+    font-weight: 300;
+    color: lightslategray;
+    padding: 0 0 .4rem .9rem;
+}
+
+.user {
+    margin-top: 2rem
+}
+
+.user .fa-user{
+    scale: .8;
+    padding: 2px 4px 0 15px;
+}
+
+.user p {
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 2px;
 }
 
 
