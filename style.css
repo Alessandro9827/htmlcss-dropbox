@@ -176,16 +176,16 @@ label {
     display: flex;
 }
 
-.price-info-container h3 {
+.column h3 {
     padding: 1rem 0 .4rem .9rem;
 }
 
-.price-info-container h4 {
+.column h4 {
     margin: 2rem 0 .7rem 1rem;
     font-size: .8rem;
 }
 
-.price-info-container p {
+.column p {
     font-size: 13px;
     font-weight: 400;
 }
@@ -281,24 +281,83 @@ label {
     padding-top: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/*--Info Team--*/
 
 .info-team {
     width: 100%;
-    height: 150px;
-    background-color: magenta;
+    
+    border: 1px solid lightgray;
+    margin-top: 1.5rem;
+}
+
+.team-container{
+    width: 80%;
+}
+
+.team-container-left h3{
+    font-size: 1.2rem;
+    margin: 1rem 0 .3rem 1rem;
+}
+
+.team-container-left p {
+    font-weight: 700;
+    font-size: 13px;
+    margin: 0 0 .5rem 1rem;
+}
+
+.team-container-right button{
+    height: 38px;
+    width: 200px;
+    position: relative;
+    top: 15px;
+    left: 270px; 
+}
+
+.info-team p {
+    font-size: 13px;
+    margin: 1.5rem 0 1rem 1rem;
+}
+
+.info-team {
+    margin-bottom: 4rem;
 }
 
 /*Partner info*/
 
+.partner-section {
+    width: 100%;
+    margin-top: 4rem;
+}
 
+.partner-container {
+    width: 50%;
+}
+
+.partner-img {
+    width: 60%;
+}
+
+.partner-img img {
+    width: 100%;
+}
+
+.partner-text {
+    width: 40%;
+}
+
+.partner-text h3 {
+    padding: 2rem 0 1rem 2rem;
+}
+
+.partner-text p {
+    font-size: 13px;
+    padding: 0 0 2rem 2rem;
+}
+
+.partner-text button {
+    background-color: white;
+    color: grey;
+    border: 1px solid black;
+    margin-left: 2rem;
+    padding: .5rem .5rem;
+}
