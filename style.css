@@ -24,6 +24,11 @@ header {
     width: 100%;
 }
 
+.j-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
 .j-center {
     display: flex;
     justify-content: center;
@@ -397,4 +402,113 @@ label {
     margin: 1.5rem 0;
 }
 
-/**/
+/*---------------*/
+
+.more-team-h2 {
+    width: 50%;
+    margin-top: 6rem;
+}
+
+.more-client {
+    width: 50%;
+    margin: 1.5rem 0;
+    font-size: 14px;
+}
+
+/*--Sponsor cards--*/
+
+.amrgin-top {
+    margin-top: 10rem;
+}
+
+div.columns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.column{
+    font-size: 0.75rem;
+    padding-top: 3rem;
+}
+
+div.column p{
+    margin-bottom: 1rem;
+}
+
+div.column button{
+    margin-bottom: 1rem;
+}
+
+div.column img{
+    width: 100%;
+}
+
+div.column-30{
+    width: 30%;
+}
+
+div.column-70{
+    width: 70%;
+}
+
+div.column-third{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+article.client-square{
+    width: 50%;
+    height: 50%;
+    display: flex;
+}
+
+article.client-square img{
+    width: 50%;
+    margin: auto;
+    filter: invert(1);
+}
+
+div.column-third.bg-light-grey{
+    padding: 2rem;
+}
+
+div.column-third.bg-light-grey img{
+    width: 50%;
+}
+.bg-red{
+    background-color: #fe1c1c;
+}
+
+.bg-blue{
+    background-color: #0d2480;
+}
+
+.bg-sky-blue{
+    background-color: #0092cd;
+}
+
+.bg-light-blue{
+    background-color: #b3cfe6;
+}
+
+.bg-yellow{
+    background-color: #fed730;
+
+}
+.bg-dark-red{
+    background-color: #61082b;
+
+}
+.bg-light-green{
+    background-color: #a1d29a;
+}
+
+.bg-light-grey{
+    background-color: #f4f4f4;
+}
+
+/*-------------*/
