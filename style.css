@@ -370,15 +370,20 @@ label {
 }
 
 /*Dropbox Business operation*/
+.h2-font-size {
+    font-size: 2rem;
+}
 
 .dropbox-operation {
     width: 50%;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 2.5rem;
 }
 
 .operation-cards {
-    width: calc(100% / 3);
+    margin: .5rem;
+    width: calc((100% / 3 ) - 1rem);
     display: flex;
     flex-direction: column;
 }
@@ -386,3 +391,10 @@ label {
 .card-img img {
     width: 100%;
 }
+
+.card-text p {
+    font-size: 13px;
+    margin: 1.5rem 0;
+}
+
+/**/
