@@ -512,3 +512,47 @@ div.column-third.bg-light-grey img{
 }
 
 /*-------------*/
+
+.btn-start-trial {
+    font-size: 13px;
+    font-weight: 400;
+    width: 35%;
+    padding: 0.5rem 0.3rem;
+    margin: 1rem 1.7rem;
+}
+
+.trial-box {
+    width: 50%;
+    padding: 6rem 0;
+}
+
+.trial-box > h2 {
+    font-size: 1rem;
+}
+
+/*---Q&A Section---*/
+
+.q-box {
+    width: 50%;
+    margin: 4rem 0;
+}
+
+.q-box h2 {
+    margin: 3rem 0;
+}
+
+.fa-chevron-down {
+    padding: 2rem 0 2rem 12rem;
+}
+
+.q-box p {
+    padding: 2rem 0;
+}
+
+.q-box div {
+    border-top: 1px solid black;
+}
+
+.q-box div:last-child {
+    border-bottom: 1px solid black;
+}
