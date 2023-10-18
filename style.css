@@ -246,10 +246,9 @@ label {
 .btn-try {
     font-size: 13px;
     font-weight: 400;
-    height: 38px;
-    width: 200px;
-    margin-left: 0.7rem;
-    margin-bottom: 1.5rem;
+    width: 75%;
+    padding: 0.5rem 0.3rem;
+    margin: 1rem 1.7rem;
 }
 
 .container-buy-now {
@@ -285,13 +284,22 @@ label {
 
 .info-team {
     width: 100%;
-    
     border: 1px solid lightgray;
     margin-top: 1.5rem;
 }
 
 .team-container{
-    width: 80%;
+    width: 100%;
+}
+
+.team-container-left {
+    width: 40%;
+}
+
+.team-container-right{
+    width: 60%;
+    display: flex;
+    justify-content: end;
 }
 
 .team-container-left h3{
@@ -306,11 +314,9 @@ label {
 }
 
 .team-container-right button{
-    height: 38px;
-    width: 200px;
-    position: relative;
-    top: 15px;
-    left: 270px; 
+    height: 50%;
+    width: 45%;
+    margin: 1rem;
 }
 
 .info-team p {
@@ -361,4 +367,22 @@ label {
     border: 1px solid black;
     margin-left: 2rem;
     padding: .5rem .5rem;
+}
+
+/*Dropbox Business operation*/
+
+.dropbox-operation {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.operation-cards {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img img {
+    width: 100%;
 }
